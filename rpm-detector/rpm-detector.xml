@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/algotn/Documents/kiCad/rpm-detector/rpm-detector/rpm-detector.sch</source>
+    <date>Thu Nov 11 20:37:07 2021</date>
+    <tool>Eeschema 5.1.10-8.fc34</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rpm-detector.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM358P</value>
+      <footprint>digikey-footprints:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/LM358P/296-1395-5-ND/277042</field>
+        <field name="Description">IC OPAMP GP 2 CIRCUIT 8DIP</field>
+        <field name="Digi-Key_PN">296-1395-5-ND</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="MPN">LM358P</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps" part="LM358P" description="IC OPAMP GP 2 CIRCUIT 8DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618DED8D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps" part="LM358P">
+      <description>IC OPAMP GP 2 CIRCUIT 8DIP</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358P</field>
+        <field name="Footprint">digikey-footprints:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358</field>
+        <field name="Digi-Key_PN">296-1395-5-ND</field>
+        <field name="MPN">LM358P</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm358</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/LM358P/296-1395-5-ND/277042</field>
+        <field name="Description">IC OPAMP GP 2 CIRCUIT 8DIP</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps">
+      <uri>/home/algotn/Documents/kiCad/digikey-kicad-library/digikey-symbols/dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+  </nets>
+</export>
